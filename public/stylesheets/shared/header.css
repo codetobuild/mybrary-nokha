@@ -1,0 +1,49 @@
+:root {
+  --nav-title-font-size: 3rem;
+  --nav-title-font-weight: bold;
+  --nav-link-font-weight: 300;
+}
+
+.header-title {
+ 
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(0, 83, 161), rgb(25, 163, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+  text-decoration: none;
+  font-size: var(--nav-title-font-size);
+  font-weight: var(--nav-title-font-weight);
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.header-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  list-style: none;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  /* color: var(--color-text-light); */
+  color: rgb(0, 0, 255);
+
+  font-weight: var(--nav-link-font-weight);
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.header-nav li a:hover, .header-title:hover {
+  color: rgb(0, 0, 0);
+}
